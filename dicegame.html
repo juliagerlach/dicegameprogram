@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head lang="en">
+		<meta http-equiv='X-UA-Compatible' content="IE=Edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+			<title>Even or Odd</title>
+		<meta name="Even or odd dice game" content="Even or odd dice game"/>
+
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="styles.css">
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	</head>
+
+		<body> 
+			<div class="jumbotron text-center"> 
+        		<h1>Even or Odd: A Game of Chance</h1>
+        		<img class = "img-responsive" padding=25px src="dice.jpg" alt="pictureofdice">
+          			<br>
+          			<br>
+          			<p>Are you in tune with the universe? Click the button to roll a set of six dice and then predict whether the sum of all the faces rolled will be odd or even. Your roll be revealed after you guess the outcome.</p>
+
+          		
+     		</div>
+
+     		<div class="container text-center">
+			  <h2>Make Your Prediction</h2>
+				<p class="text-center">Is the sum of all the dice rolled even or odd? Make your prediction now to find out.
+			
+
+			<div class="radio">
+				<label><input type="radio" name="group" id="even" value="even" onclick="playGame(true)">Even</label>
+			</div>
+			<div class="radio">
+  				<label><input type="radio" name="group" id="odd" value="odd" onclick="playGame(false)">Odd</label>
+  			</div></p>
+  			</div>
+  					<br>
+  					<br>
+
+				
+			<script src="dicegame2.js"></script>
+		</body>
+</html>
